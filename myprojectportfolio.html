@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Therese's Portfolio Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--link for the font for wordmark-->
+  <!--regular: just in case it won't work
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> -->
+  <!--black-->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet">
+  <!--link for the font for headings, extra-light -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+  <!--link for general text -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="myprojectportfolio2.css" rel="stylesheet">
+  <style>
+
+    /*.container {
+       display: grid;
+       grid-gap: 3px;
+       grid-template-columns: repeat(12, 1fr);
+       grid-template-rows: 100px 100px 100px 400px 500px 100px;
+
+    }*/
+
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="grid-header">
+      <!--logo-->
+      <div id="wordmark">TY</div>
+      <div class="name-container">
+        <div class="owner-name">Therese Yason</div>
+        <div class="tagline">science <span>&#183</span> art <span>&#183</span> life</div>
+      </div>
+    </div>
+
+    <!-- Navigation to link within the same page -->
+    <nav>
+      <hr>
+      <hr>
+      <ul class="flexbox-navigation">
+        <li class="nav-element"> <a href="#grid-header">Home</a></li>
+        <li class="nav-element"> <a href="#about-me">About</a></li>
+        <li class="nav-element"> <a href="#featured-work">Work</a></li>
+        <li class="nav-element"> <a href="#contact-details">Contact</a></li>
+      </ul>
+      <hr>
+    </nav>
+
+    <!-- div for hero image and About text -->
+    <div id="about-me">
+    <!--alternative code if I want a hero image instead -->
+      <img src="https://lh3.googleusercontent.com/4YywKT1cFZAaLAS46fAyP03zikmeuhgopDnQ1tCI7-QAYLCjESN47tAaOjWMpeQ_u9rdm7AjzM72GQtcCSPzPSXfCB2hcbmxvbrFxZLe0D52mWJMkbowqXa3apUQ8LF12XWZOwMkNA=w2400" alt="a floral pattern in salmon pink by T. Yason 2017" class="pattern">
+      <!--  <br>
+      <div class="content">
+        <p id="first-linep">Each Day, a New Discovery</p>
+        <p class="blurb">Hi! My name is Therese.</p>
+        <p class="blurb">I'm a teacher, a lifelong learner,</p>
+        <p class="blurb">and a maker of</p>
+        <p class="blurb">things artistic and scientific.</p>
+      </div>
+      <br>
+      <br>/* -->
+    </div>
+
+    <!-- for featured work h2 -->
+    <h2 id="featured-work">Featured Work</h2>
+    <!-- <br> -->
+
+    <!--div for 3 sample works, figcaptions, alts, etc.-->
+    <div id="my-work">
+      <br>
+      <br>
+      <div>
+        <figure>
+          <img src="https://lh3.googleusercontent.com/ZcnZ2TDOqM4up-6Ajl7rS3RHEv4GEBpIdPvOmVniWIdEr_2scfnSoaxgOVrerqsBq2jAXfr44QqN3sLflk2jjQ7txnvRwF5Egb5tRQIv961p1bE6ciMo9lzkgYGdwDGmNXmxEINVig=w2400" alt="Pink bromeliad drawn in colored pencil by Therese Yason 2014"
+          srcset="https://lh3.googleusercontent.com/mFAE4RCGuRHpR4kTy7HsZb6g-w1ZhnsAG2XWbi7LZLGPditlDCwjQ4nQQ_yavd-zwKmfi6bRknSOQbgA7322Kmz6Il__lS9B3Ed3XEustmmyn37lVjt5rFliY3OPZvCxeQZ0KsbKKw=w2400 1x, https://lh3.googleusercontent.com/wDDOArK6KjPo-lm33zgwsvKsFqev_ePZUp5UCLLQQgcd1rEMKCdn342F1wJnkU4d5Y6Ml77zvFM4KrXwjtN46qzzuuhlOfraxHYmibguHrbARqCFXkD8g17lPNv6_1ufw07XmYG84g=w2400 2x" class="colored-pencil">
+          <figcaption>"Bromeliad", T. Yason, colored pencil on paper, 2014</figcaption>
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img src="https://lh3.googleusercontent.com/9Z01h02DocftLsACVEF3ejzlcmcKXn2yWOvMZC1p7isNsfb5mkAXkngjR7pD3vJ7xrVvwnyoDgVROp81ZQYG3nm3a0cWbBfhyFmdHKUFpL1Q47MukqVy7_hVqZdTEOnpeQZmOcwnWg=w2400" alt="ylang-ylang blossoms drawn in colored pencil by Therese Yason 2015"
+          srcset="https://lh3.googleusercontent.com/AfMEn1GerERbivIbUG4UPfoyifOZ3RqqQjAap8gzKraj-UuTplJgJlkO0gRDbuxyOh5ipibb-sa_7gzq4CX6sCXLVOk-TH21zzGMWjlJczbYcvTSIn82G08cH8PeMfubgY3Gcu7F7A=w2400 1x, https://lh3.googleusercontent.com/YPUlCN6dg5Kq2w1C1Rqr2kRhB-tbSLvFTgMhfiPbqoXcujUQvLPaLgk1u2UMrijeRYYabCAQhTVFVVQqvSB7IZneS5t7HvxKUPrrkk1oBVghCajX5_XSwWoiloPJBKx4gmt-zdxz0g=w2400 2x" class="colored-pencil">
+          <figcaption>"Ylang-Ylang", T. Yason, colored pencil on paper, 2015</figcaption>
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img src="https://lh3.googleusercontent.com/FMz3dKXVk5vIFxeZVOhRCnX3j8srbvs1lnWie4eSgjw7xDqNHUm_9spbKXkWK9i1isZUX_YKfL9nO93eUEri9hTfTe8pdar6fpJt8vHKREEG94WfhCgjE3mEhERV60tWTY2Y9jQUwg=w2400" alt="caladiums drawn with colored pencil by Therese Yason 2014"
+           srcset="https://lh3.googleusercontent.com/swhX_8qqF-y_MbeoHsmv1qWSS7h3fRShVBMI8ebslM3_0Qt27TDRLG_wkpWuKtqFBySHsLG4QnDwLO9Na3zmYneTkTyoldt6Cwn2GmIk0umHRObsNZn6Pp21ZL2JJ-gzn6zU4k1ROQ=w2400 1x, https://lh3.googleusercontent.com/MmfNX3UpFzmHlmf866DDDqSHlsYsc1RJp2xQLNtan9MpRpocXF5Tbry3eUSm0zHuUnLdeZ7OIUnAGqCOT6GMp9yl3GaKHnNsLfqs6q_un3ZiHk4qUraIleX8kMEpR0w8dpY8-OhIWw=w2400 2x" class="colored-pencil" /> </a>
+          <figcaption>"Caladiums", T. Yason, colored pencil on paper, 2014</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!--footer with contact details-->
+    <div id="contact-details">
+      <h3 id="keep-in-touch">Keep in Touch!</h3>
+      <!--email and copyright UTF from utf8icons.com-->
+      <div id="email"><a href="mailto:example@gmail.com">&#128231</a></div>
+      <br>
+        <p id="copyright">&#169 Marie Therese Yason 2018</p>
+      <br>
+    </div>
+
+  </div>
+
+
+</body>
